@@ -5,6 +5,7 @@ Desafio técnico para os alunos da disciplina "Desenvolvimento Web 3"
 
 ### No ambiente Linux:
 
+```bash
 git clone https://github.com/beamclive/pratica_TDD.git <br><br>
 cd Pratica_TDD_2/ <br><br>
 virtualenv -p python3 venv <br><br>
@@ -15,10 +16,12 @@ python manage.py migrate <br><br>
 python manage.py test <br><br>
 coverage run --source='.' manage.py test  <br><br>
 coverage html <br><br>
-python manage.py runserver <br><br>
+python manage.py runserver <br><br>```
+```
 
 ### No ambiente Windows:
 
+```bash
 git clone https://github.com/beamclive/pratica_TDD.git <br><br>
 cd Pratica_TDD_2/ <br><br>
 virtualenv venv <br><br>
@@ -34,6 +37,7 @@ python manage.py test <br><br>
 coverage run --source='.' manage.py test  <br><br>
 coverage html <br><br>
 python manage.py runserver <br><br>
+```
 
 O projeto apresenta um cadastro de agenda. Na rota raiz (/), se apresenta quatro botões onde é possível acessar a rota cadastro (/create) para cadastrar o contato, que armazena as seguintes informações: <br>
 
@@ -50,9 +54,9 @@ Ao acessar a rota delete (/delete), é possível remover um contato; <br>
 ## Requisitos para a Sprint 2
 Aqui começa o desafio. Para começar, foi preciso criar um superusuário com as seguintes credenciais: <br>
 
-Username admin: 'admin' <br>
-E-mail address: nosso e-mail institucional <br>
-Password fatec: 123 <br><br>
+- Username admin: 'admin' <br>
+- E-mail address: nosso e-mail institucional <br>
+- Password fatec: 123 <br><br>
 
 Ao acessar a Área do Django-Admin, foi registrado o modelo AgendaModel. <br>
 
@@ -64,13 +68,13 @@ Além do mais, foi incluído um novo campo de CPF. <br>
 
 Validação do novo campo: <br>
 
-"CPF: Espera-se exatos 11 caracteres." <br>
-"Todos os campos devem ser obrigatórios." <br>
+- "CPF: Espera-se exatos 11 caracteres." <br>
+- "Todos os campos devem ser obrigatórios." <br>
 
-"Exibir novo campo nos templates" <br>
-"Exibir o campo CPF em cadastro.html" <br>
-"Exibir o campo CPF em detalhes.html" <br>
-"Exibir o campo CPF em detalhes2.html" <br>
+- "Exibir novo campo nos templates" <br>
+- "Exibir o campo CPF em cadastro.html" <br>
+- "Exibir o campo CPF em detalhes.html" <br>
+- "Exibir o campo CPF em detalhes2.html" <br>
 
 ### Ajustes nos testes <br>
 O código fonte passou por atualizações para acomodar estes novos requisitos. Com isso, também foi ajustado os testes existentes e criado novos testes. <br>
