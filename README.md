@@ -6,37 +6,37 @@ Desafio técnico para os alunos da disciplina "Desenvolvimento Web 3"
 ### No ambiente Linux:
 
 ```bash
-git clone https://github.com/beamclive/pratica_TDD.git <br><br>
-cd Pratica_TDD_2/ <br><br>
-virtualenv -p python3 venv <br><br>
-source venv/bin/activate <br><br>
-pip install -r requirements.txt <br><br>
-cd agenda/ <br><br>
-python manage.py migrate <br><br>
-python manage.py test <br><br>
-coverage run --source='.' manage.py test  <br><br>
-coverage html <br><br>
-python manage.py runserver <br><br>```
+git clone https://github.com/beamclive/pratica_TDD.git 
+cd Pratica_TDD_2/ 
+virtualenv -p python3 venv 
+source venv/bin/activate 
+pip install -r requirements.txt 
+cd agenda/ 
+python manage.py migrate 
+python manage.py test 
+coverage run --source='.' manage.py test 
+coverage html 
+python manage.py runserver ```
 ```
 
 ### No ambiente Windows:
 
 ```bash
-git clone https://github.com/beamclive/pratica_TDD.git <br><br>
-cd Pratica_TDD_2/ <br><br>
-virtualenv venv <br><br>
-cd venv <br><br>
-cd scripts <br><br>
-activate.bat <br><br>
-cd .. <br><br>
-cd .. <br><br>
-pip install -r requirements.txt <br><br>
-cd agenda/ <br><br>
-python manage.py migrate <br><br>
-python manage.py test <br><br>
-coverage run --source='.' manage.py test  <br><br>
-coverage html <br><br>
-python manage.py runserver <br><br>
+git clone https://github.com/beamclive/pratica_TDD.git 
+cd Pratica_TDD_2/ 
+virtualenv venv 
+cd venv 
+cd scripts 
+activate.bat 
+cd .. 
+cd .. 
+pip install -r requirements.txt 
+cd agenda/ 
+python manage.py migrate 
+python manage.py test 
+coverage run --source='.' manage.py test  
+coverage html 
+python manage.py runserver 
 ```
 
 O projeto apresenta um cadastro de agenda. Na rota raiz (/), se apresenta quatro botões onde é possível acessar a rota cadastro (/create) para cadastrar o contato, que armazena as seguintes informações: <br>
