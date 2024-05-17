@@ -16,7 +16,7 @@ python manage.py migrate
 python manage.py test 
 coverage run --source='.' manage.py test 
 coverage html 
-python manage.py runserver ```
+python manage.py runserver 
 ```
 
 ### No ambiente Windows:
