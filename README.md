@@ -1,5 +1,4 @@
 # Prática TDD
-<hr>
 Desafio técnico para os alunos da disciplina "Desenvolvimento Web 3"
 
 ## O que eu devo fazer?
@@ -36,34 +35,34 @@ coverage run --source='.' manage.py test  <br><br>
 coverage html <br><br>
 python manage.py runserver <br><br>
 
-O projeto apresenta um cadastro de agenda. Na rota raiz (/), se apresenta quatro botões onde é possível acessar a rota cadastro (/create) para cadastrar o contato, que armazena as seguintes informações: <br><br>
+O projeto apresenta um cadastro de agenda. Na rota raiz (/), se apresenta quatro botões onde é possível acessar a rota cadastro (/create) para cadastrar o contato, que armazena as seguintes informações: <br>
 
 - Nome <br>
 - Telefone <br>
 
-Após cadastrar um contato, a rota listar (/read), lista todos os contatos cadastrados; <br><br>
+Após cadastrar um contato, a rota listar (/read), lista todos os contatos cadastrados; <br>
 
-Ao acessar a rota update (/update), é possível selecionar e atualizar um contato; <br><br>
+Ao acessar a rota update (/update), é possível selecionar e atualizar um contato; <br>
 
-Ao acessar a rota delete (/delete), é possível remover um contato; <br><br>
+Ao acessar a rota delete (/delete), é possível remover um contato; <br>
 
 
 ## Requisitos para a Sprint 2
-Aqui começa o desafio. Para começar, foi preciso criar um superusuário com as seguintes credenciais: <br><br>
+Aqui começa o desafio. Para começar, foi preciso criar um superusuário com as seguintes credenciais: <br>
 
-Username admin: <br>
-E-mail address seu e-mail institucional: <br>
-Password fatec: <br><br>
+Username admin: 'admin' <br>
+E-mail address: nosso e-mail institucional <br>
+Password fatec: 123 <br><br>
 
-Ao acessar a Área do Django-Admin, foi registrado o modelo AgendaModel. <br><br>
+Ao acessar a Área do Django-Admin, foi registrado o modelo AgendaModel. <br>
 
-Além do mais, foi incluído um novo campo de CPF. <br><br>
+Além do mais, foi incluído um novo campo de CPF. <br>
 
-Requisitos para inclusão do campo: <br><br>
+### Requisitos para inclusão do campo: <br>
 
 "Adicione um campo do tipo CharField com tamanho máximo de 30 caracteres. Não se esqueça de definir o valor default como ''." <br>
 
-Validação do novo campo: <br><br>
+Validação do novo campo: <br>
 
 "CPF: Espera-se exatos 11 caracteres." <br>
 "Todos os campos devem ser obrigatórios." <br>
